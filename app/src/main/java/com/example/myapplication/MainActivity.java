@@ -32,14 +32,7 @@ public class MainActivity extends AppCompatActivity {
         textView2.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                ClipData.Item item = new ClipData.Item((CharSequence) v.getTag());
-                String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
-
-                ClipData dragData = new ClipData(v.getTag().toString(), mimeTypes, item);
-                View.DragShadowBuilder myShadow = new View.DragShadowBuilder(textView2);
-
-                v.startDrag(dragData, myShadow, null, 0);
-                return true;
+                return  true;
             }
         });
 

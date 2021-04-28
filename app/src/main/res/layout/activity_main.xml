@@ -22,6 +22,7 @@
         android:layout_below="@+id/t1"
         android:layout_marginTop="195dp"
         android:text="sasaassasaasaa!"
+        android:layout_centerHorizontal="true"
         android:id="@+id/t2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
